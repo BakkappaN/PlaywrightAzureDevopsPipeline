@@ -2,9 +2,7 @@ trigger:
 - main
 
 pool:
-   name: AgentPool1
-   demands:
-   - agent.name -equals DESKTOP-7ECRDH4
+   vmImage: ubuntu-latest
 
 steps:
 - task: NodeTool@0
