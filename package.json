@@ -1,0 +1,16 @@
+{
+  "name": "playwrightazuredevops",
+  "version": "1.0.0",
+  "description": "Testers Talk",
+  "main": "index.js",
+  "scripts": {
+    "tests": "playwright test --config=playwright.config.js --project=chromium"
+  },
+  "keywords": [],
+  "author": "Testers Talk",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.11.0"
+  }
+}
