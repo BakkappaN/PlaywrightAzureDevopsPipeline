@@ -1,4 +1,3 @@
-
 ## Integrate Playwright with Azure Devops Pipeline
 There are 2 options, option1 is using yaml file & option2 is without using yaml file. let's see one by one
 
@@ -119,7 +118,7 @@ steps:
 
    
 2. Option2 - Without using YAML File
-   - Step1: Repeat step 1 to 6 above
+   - Step1: Repeat step 1 to 6 above from Option1
    - Step2: Click on Pipelines then click on New Pipeline
      ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/1f753af4-881e-495d-a7dd-8c9163de97ff)
 
@@ -167,8 +166,17 @@ steps:
      Click on Job and you will see a screen like this
      ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/b135a6c0-039c-4b90-934c-849b35e47cbc)
 
+   - Step11: We can also upload playwright-report using Publish Pipeline Artifacts task
+     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/138a4af7-addd-4498-8296-64468c957610)
+
+   - Step12: Let's Publish Test Results using Publish Test Results task
+     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/f0ea2efe-3509-4e48-baa5-01a2ec9f283d)
 
 
+   - Let's run the pipeline
+     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/575518de-feed-4267-b7f1-290e4ad76903)
 
-  
-  
+   - Artifacts are published & also we have published test results
+     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/d575766a-2f20-42f2-a1e3-aa5f71259823)
+
+     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/45821475-feb2-4b16-a9ae-126c55cf20a1)
